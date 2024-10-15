@@ -1,0 +1,32 @@
+
+.Gyroscope{
+    width: 90vw;
+    height: 90vh;
+    margin-top: -1vh;
+    /* margin-bottom: 2vh; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OuterCircle{
+    height:  90vh;
+    max-width: 90vw;
+    width: 90vh;
+    border: 3px solid black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InnerCircle{
+    height:  5vh;
+    max-width: 5vh;
+    width: 5vw;
+    border: 3px solid red;
+    border-radius: 100%;
+    translate: 0vh ;
+}
+
