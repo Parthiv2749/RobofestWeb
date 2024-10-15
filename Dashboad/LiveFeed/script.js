@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://192.168.89.126:10050');  
+const socket = new WebSocket('ws://192.168.87.54:10050');  
 const imageElement = document.getElementById('imageDisplay');  
 
 socket.onopen = function(event) {  
